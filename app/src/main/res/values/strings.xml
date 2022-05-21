@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ENEEPL</string>
+
+    #home_activity
+    <string name="save_your_fav_user">Save your favorite user post from anywhere</string>
+    <string name="paste_user_link">Enter post note</string>
+    <string name="join_conversation">comment your opinion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">Save</string>
+
+</resources>
