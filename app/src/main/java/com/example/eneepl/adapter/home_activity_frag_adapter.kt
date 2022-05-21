@@ -1,8 +1,6 @@
 package com.example.eneepl.adapter
 
 import android.content.Context
-import android.text.Spannable
-import android.text.SpannableString
 import android.view.LayoutInflater
 import android.view.View
 import android.view.View.GONE
@@ -11,7 +9,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.eneepl.R
 import com.example.eneepl.model.userinfo
@@ -57,9 +54,11 @@ class home_activity_frag_adapter(private val context: Context,private val users:
             holder.img_user_dp.setImageDrawable(context.getDrawable(users[position].post_img))
 //            holder.img_save.setImageDrawable(context.getDrawable(users[position].userdp))
 
-            holder.cl_save.visibility = VISIBLE
+//            holder.cl_save.visibility = VISIBLE
             holder.cl_save_post.visibility = GONE
             holder.img_post_image.visibility = GONE
+//            holder.cl_save_post.visibility = VISIBLE
+//            holder.img_post_image.visibility = VISIBLE
         } else {
             holder.tv_title1.setText(users[position].username)
             holder.tv_subtitle.setText(users[position].usercity)
